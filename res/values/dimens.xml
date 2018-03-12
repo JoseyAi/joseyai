@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="bottom_tab_font_size">10.0sp</dimen>
+    <dimen name="bottom_tab_padding_up">5.0dp</dimen>
+    <dimen name="bottom_tab_padding_drawable">2.0dp</dimen>
+    <dimen name="switch_logo_bottom_padding">30.0sp</dimen>
+    <dimen name="widget_height">100.0dp</dimen>
+    <dimen name="sta_heitht">48.0dp</dimen>
+    <dimen name="large_padding_length">20.0dp</dimen>
+    <dimen name="widget_write_margin_top">19.0dp</dimen>
+    <dimen name="widget_write_margin_left">10.0dp</dimen>
+    <dimen name="widget_content_margin_top">20.0dp</dimen>
+    <dimen name="widget_content_margin_left">10.0dp</dimen>
+    <dimen name="widget_logo_size">35.0dp</dimen>
+    <dimen name="title_height">74.0dp</dimen>
+    <dimen name="new_blog_size">70.0dp</dimen>
+    <dimen name="emotion_item_view_height">13.299988dp</dimen>
+    <dimen name="splash_test_top_margin_top">20.0dp</dimen>
+    <dimen name="splash_test_center_margin_right">0.0dp</dimen>
+    <dimen name="title_text_size">20.0sp</dimen>
+    <dimen name="normal_padding_length">10.0dp</dimen>
+    <dimen name="no_result_padding_length">50.0dp</dimen>
+    <dimen name="title_size">18sp</dimen>
+    <dimen name="value_size">16sp</dimen>
+    
+     <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+</resources>

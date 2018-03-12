@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants" >
+
+    <CheckBox
+        android:id="@+id/stu_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:id="@+id/stu_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="姓名"
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:id="@+id/stu_list_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="学号"
+        android:textColor="#ff0000" />
+     <TextView
+        android:id="@+id/stu_list_yuanxiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="院校"
+        android:textColor="#ff0000" />
+    
+     <TextView
+        android:id="@+id/stu_list_xibie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="系别"
+        android:textColor="#ff0000" />
+     
+      <TextView
+        android:id="@+id/stu_list_banji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="班级"
+        android:textColor="#ff0000" />
+      
+       <TextView
+        android:id="@+id/stu_list_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="电话"
+        android:textColor="#ff0000" />
+      
+     
+     
+
+</LinearLayout>

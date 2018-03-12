@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#7CFC00"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal" >
+    
+	<RelativeLayout 
+        android:id="@+id/login_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_bar">
+
+        <TextView
+            android:id="@+id/demo_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="消息"
+           />      
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/chat_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_top_layout"
+        android:text="聊天/咨询客服" />
+
+    <Button 
+        android:id="@+id/add_friend_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chat_button"        
+        android:text="添加好友"
+        />
+    <Button 
+        android:id="@+id/roster_list_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_friend_button"        
+        android:text="好友列表"
+        />
+    <Button 
+        android:id="@+id/history_list_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/roster_list_button"        
+        android:text="历史消息列表"
+        />
+    <Button 
+        android:id="@+id/profile_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/history_list_button"        
+        android:text="个人资料"
+        />
+    <Button 
+        android:id="@+id/friend_profile_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_button"        
+        android:text="好友个人资料"
+        />    
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/friend_profile_button"
+        android:text="登出" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

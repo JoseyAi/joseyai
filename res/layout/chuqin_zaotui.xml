@@ -1,0 +1,311 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical"
+    android:layout_marginTop="35dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/chuqin_zaotui_title"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#d0d0d0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/zaotui_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:text="姓名"
+            android:textColor="#333333"
+            android:textSize="@dimen/title_size" />
+
+        <EditText
+            android:id="@+id/zaotui_name_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@id/zaotui_name"
+            android:background="@null"
+            android:hint="请早退学生姓名"
+            android:inputType="text"
+            android:maxLength="10"
+            android:textColor="#9f9f9f"
+            android:textSize="@dimen/value_size" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="#d0d0d0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/zaotui_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:text="学号"
+            android:textColor="#333333"
+            android:textSize="@dimen/title_size" />
+
+        <EditText
+            android:id="@+id/zaotui_number_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@id/zaotui_number"
+            android:background="@null"
+            android:hint="请填写早退学生学号"
+            android:inputType="numberDecimal"
+            android:maxLength="15"
+            android:textColor="#9f9f9f"
+            android:textSize="@dimen/value_size" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="#d0d0d0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/zaotui_xibie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:text="系别"
+            android:textColor="#333333"
+            android:textSize="@dimen/title_size" />
+
+        <EditText
+            android:id="@+id/zaotui_xibie_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@id/zaotui_xibie"
+            android:background="@null"
+            android:hint="请填写学生所在系别"
+            android:inputType="text"
+            android:maxLength="20"
+            android:textColor="#9f9f9f"
+            android:textSize="@dimen/value_size" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="#d0d0d0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/zaotui_banji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:text="班级"
+            android:textColor="#333333"
+            android:textSize="@dimen/title_size" />
+
+        <EditText
+            android:id="@+id/zaotui_banji_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@id/zaotui_banji"
+            android:background="@null"
+            android:hint="请填写学生所在班级"
+            android:inputType="text"
+            android:maxLength="20"
+            android:textColor="#9f9f9f"
+            android:textSize="@dimen/value_size" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="#d0d0d0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/zaotui_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:text="所上课程"
+            android:textColor="#333333"
+            android:textSize="@dimen/title_size" />
+
+        <EditText
+            android:id="@+id/zaotui_course_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@id/zaotui_course"
+            android:background="@null"
+            android:hint="请填写早退课程"
+            android:inputType="numberDecimal"
+            android:maxLength="15"
+            android:textColor="#9f9f9f"
+            android:textSize="@dimen/value_size" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="#d0d0d0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/zaotui_reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:text="早退原因"
+            android:textColor="#333333"
+            android:textSize="@dimen/title_size" />
+
+        <EditText
+            android:id="@+id/zaotui_reason_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@id/zaotui_reason"
+            android:background="@null"
+            android:hint="请填写学生早退原因"
+            android:inputType="text"
+            android:maxLength="20"
+            android:textColor="#9f9f9f"
+            android:textSize="@dimen/value_size" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:background="#d0d0d0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#FFFFFF" >
+
+        <TextView
+            android:id="@+id/zaotui_quxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:text="早退去向"
+            android:textColor="#333333"
+            android:textSize="@dimen/title_size" />
+
+        <EditText
+            android:id="@+id/zaotui_quxiang_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@id/zaotui_quxiang"
+            android:background="@null"
+            android:hint="请填写学生早退去向"
+            android:inputType="text"
+            android:maxLength="20"
+            android:textColor="#9f9f9f"
+            android:textSize="@dimen/value_size" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/export_zaotui"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/export_btn_selector"
+        android:padding="0dp"
+        android:text="@string/export_zaotui"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/import_zaotui"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/import_btn_selector"
+        android:padding="0dp"
+        android:text="@string/import_zaotui"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/zaotui_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+</LinearLayout>
